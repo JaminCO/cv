@@ -24,9 +24,9 @@ body {
 }
 
 .header {
-	background-image:url(images/Profile.jpg);
-	width: 100%;
-	height: 60vh;
+	background-image:url(images/HEADSHOT.jpg);
+	width: 55%;
+	height: 120vh;
 	background-size:cover;
 	background-position:center;
 }
