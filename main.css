@@ -7,6 +7,10 @@
 	transform: translate(-50%, -90%)
 }
 
+.p{
+	color: black;
+}
+
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -36,7 +40,7 @@ body {
     text-decoration: none;
   }
 
-  .article-content {
+ .article-content {
     white-space: pre-line;
   }
 
