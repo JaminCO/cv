@@ -13,88 +13,13 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	background-color: lightblue;
 	padding: 10px;
-}
-
-.profile {
-	padding: 10px;
-	font-family:Arial, Helvetica, sans-serif;
-	background-color: lightgreen;
-}
-
-.my-image {
-	position: relative;
-	width: 19%;
-	height: 40%;
-	top: 15px;
-	border-radius: 20%;
-	margin-bottom: 50px;
-	margin-left: 500px;
-}
-
-.article-title {
-    color: black;
-  }
-
-.languages-title {
-	color: rgb(0, 0, 0);
-	margin-left: 440px;
-	font: Alternate, Arial, Helvetica;
-	text-align: center;
-  }
-
-.special-title {
-	color:black;
-	margin-left: 440px;
-	font: Arial, Helvetica;
-  }
-
-.intro-title {
-	color: rgb(0, 0, 0);
-	margin-left: 400px;
-  }
-
-.bg {
-    background-color: red;
-  }
-
- .article-content {
-    white-space: pre-line;
-  }
-
-.content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 30px;
-  }
-
-.nav{
-	display:flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.p{
-	color: black;
-}
-
-*{
-	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
 }
 
-body {
-	padding: 10px;
-	font-family:Arial, Helvetica, sans-serif;
-	background-color: lightblue;
-	padding: 10px;
-}
-
 .profile {
 	padding: 10px;
 	font-family:Arial, Helvetica, sans-serif;
-	background-color: lightgreen;
+	background-image: url('pexels-pixabay-373543.jpg');
 }
 
 .my-image {
@@ -105,6 +30,31 @@ body {
 	border-radius: 20%;
 	margin-bottom: 50px;
 	margin-left: 500px;
+}
+
+a {
+	color: rgb(145, 145, 216);
+	margin: 10px;
+	text-align: none;
+}
+
+.bottom-container {
+	background-color: rgb(99, 99, 211);
+	padding: 2rem;
+}
+
+.copy {
+	font-size: 20px;
+	color: white;
+	padding-top: 15px;
+}
+
+a {
+	color: rgb(145, 145, 216);
+}
+
+.bottom-container > a:hover{
+	color: white;
 }
 
 .article-title {
@@ -125,7 +75,7 @@ body {
   }
 
 .intro-title {
-	color: rgb(0, 0, 0);
+	color:white;
 	margin-left: 400px;
   }
 
@@ -150,3 +100,23 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
